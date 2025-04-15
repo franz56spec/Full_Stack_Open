@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: rgb(60, 57, 57);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.conte{
+    padding-left: 10px;
+    border-radius: 5rem;
+    border: 1px solid rgb(245, 241, 241);
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+.name_title{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.name_info{
+    width: 100rem;
+    align-self: center;
+    height: 10rem;
+    background-color: rgb(95, 99, 105);
+    border: none;
+    color: white;
+    border-radius: 3rem;
+    padding: 1.5rem;
+}
+input{
+    width: 15rem;
+    height: 5rem;
+    align-self: center;
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(178, 183, 192);
+    border: none;
+    border-radius: 2rem;
+}
