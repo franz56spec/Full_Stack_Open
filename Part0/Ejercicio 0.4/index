@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title"> Full Stack </h1>
+    <div class="conte">
+        <form action="">
+            <label class="name_title" for="">Name</label>
+            <textarea name="name" class="name_info">Name of Nota</textarea>
+            <input type="submit" value="Save">
+        </form>
+    </div>
+</body>
+</html>
